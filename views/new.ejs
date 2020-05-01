@@ -1,0 +1,16 @@
+  
+<%- include('./partials/header.ejs') %>
+
+<form action="/pokemon" method="POST">
+  <fieldset>
+    <label for="name">Pokemon:</label>
+    <input type="text" id="name" name="name" placeholder="Name of Pokemon">
+  </fieldset>
+  <fieldset>
+    <label for="pic">Pic:</label>
+    <input type="text" id="img" name="img" placeholder="Img link">
+  </fieldset>
+  <button>New Pokemon</button>
+</form>
+
+<%- include('./partials/footer.ejs') %>
