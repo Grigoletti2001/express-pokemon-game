@@ -1,4 +1,6 @@
+Beta deployment here.... 
 
+https://express-pokemon.herokuapp.com/
 
 # Pokemon Express Rest
 
